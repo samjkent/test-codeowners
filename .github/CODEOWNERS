@@ -1,1 +1,2 @@
-.github/workflows/ @octocat
+.github/workflows/ @microbit-sam
+.github/CODEOWNERS @microbit-sam
