@@ -1,4 +1,8 @@
 name: hello-world
+
+env:
+  BUILD_CONFIGURATION: Release
+
 on: push
 jobs:
   my-job:
