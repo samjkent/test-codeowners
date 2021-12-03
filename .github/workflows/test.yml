@@ -1,12 +1,9 @@
 name: hello-world
-
-env:
-  BUILD_CONFIGURATION: Release
-
 on: push
 jobs:
   my-job:
     runs-on: ubuntu-latest
+    environment: Release
     steps:
       - name: my-step
         run: echo "Hello World!"
